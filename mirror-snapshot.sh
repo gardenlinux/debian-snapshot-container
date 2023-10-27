@@ -5,7 +5,7 @@ set -x
 SNAPSHOT_IMAGE_ARM=$1
 SNAPSHOT_IMAGE_AMD=$2
 TARGET_VERSION=$3
-IMAGE_NAME="vincinator/gl-pkg-build"
+IMAGE_NAME="gardenlinux/debian-snapshot-container"
 
 export DOCKER_CLI_EXPERIMENTAL=enabled
 CUSTOM_CRE="docker"
