@@ -1,5 +1,7 @@
 # debian snapshot container for garden linux 
-The `mirror-snapshot.sh` script creates a multi arch container for Garden Linux package builds, and tags it with a Garden Linux version and uploads it to ghcr.io
+The `mirror-snapshot.sh` script creates a multi arch container for Garden Linux package builds, and tags it with a Garden Linux version and uploads it to ghcr.io.
+
+⚠️  This is designed to generate a package build container from a Debian snapshot for older Garden Linux versions lacking one. However, recent Garden Linux releases come with a built-in package container, making this method a secondary option. ⚠️
 
 # Why?
 
