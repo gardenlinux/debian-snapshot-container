@@ -1,4 +1,7 @@
+# Why?
 
+- Debian snapshot container do not offer a multi arch container. A multi arch container enables our build cre to decide to use the apropriate architecture 
+- mirroring debian snapshot container for reproducibility
 
 # Example
 The following cmd creates a multi arch debian-snapshot-container for bookworm-202221024, 
